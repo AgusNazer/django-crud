@@ -3,6 +3,7 @@ import { TasksPage } from './pages/TasksPage';
 import { TasksFormPage } from './pages/TasksFormPage';
 import  Navigation  from './components/Navigation';
 import { Toaster } from 'react-hot-toast'
+import {Footer }from './components/Footer'
 
 const App: React.FC = () => {
   return (
@@ -16,6 +17,7 @@ const App: React.FC = () => {
         <Route path='/tasks/:id' element={<TasksFormPage />} />
       </Routes>
       <Toaster/>
+      <Footer/>
        </div>
     </BrowserRouter>
   );

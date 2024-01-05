@@ -72,8 +72,8 @@ export function TasksFormPage(){
   },[])
 
     return (
-      <div className='max-w-xl mx-auto'>
-      <form onSubmit={onSubmit} className='div1'>
+      <div className='max-w-xl mx-auto '>
+      <form onSubmit={onSubmit}>
         <input 
         className='bg-zinc-700 p-3 rounded-lg block w-full mb-3'
           type='text'
